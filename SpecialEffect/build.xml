@@ -10,6 +10,14 @@
 <project name="SpecialEffect" default="default" basedir=".">
     <description>Builds, tests, and runs the project SpecialEffect.</description>
     <import file="nbproject/build-impl.xml"/>
+	
+	<target name="-post-jar">
+    <echo>Adding files to jar...</echo>
+    <jar destfile="dist/SpecialEffect.jar" update="true">
+    <include name="files/*"/>
+    </jar>
+    </target>
+	
     <!--
 
     There exist several targets which are by default empty and which can be 
