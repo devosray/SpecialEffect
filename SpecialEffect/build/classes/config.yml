@@ -1,0 +1,9 @@
+#Default Config file
+
+#############
+# LifeSteal #
+#############
+  
+  #Percentage chance of losing an extra heart once hit
+  Lifesteal_probability: 50 
+  

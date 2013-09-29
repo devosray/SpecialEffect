@@ -1,7 +1,6 @@
-    name: SpecialEffect
-    main: com.github.devosray.SpecialEffect.SpecialEffect
-    version: 0.1
-	
-	permissions:
-		specialeffect.lifesteal:
-			description: Whenever a player with this power attacks another, he has the probability to take another heart from him.
+name: SpecialEffect
+main: com.github.devosray.SpecialEffect.SpecialEffect
+version: 0.1
+permissions:
+  specialeffect.lifesteal:
+    description: Whenever a player with this power attacks another, he has the probability to take another heart from him.

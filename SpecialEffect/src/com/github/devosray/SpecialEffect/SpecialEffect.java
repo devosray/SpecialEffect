@@ -5,7 +5,6 @@ package com.github.devosray.SpecialEffect;
  * @author Raymond
  */
 
-import org.bukkit.event.EventPriority;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class SpecialEffect extends JavaPlugin {
@@ -15,9 +14,13 @@ public class SpecialEffect extends JavaPlugin {
     @Override
     public void onEnable(){
         //Register EventHandler
-        getServer().getPluginManager().registerEvents(eventH,this);
+        getServer().getPluginManager().registerEvents(eventH,this);   
         
         getLogger().info("SpecialEffect has been started...");
+        
+        //Save default config files
+        this.saveDefaultConfig();
+
     }
     
     @Override

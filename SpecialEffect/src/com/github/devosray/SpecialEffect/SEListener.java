@@ -24,7 +24,6 @@ public class SEListener implements Listener {
         //Check to see if both are players
         if (evt.getDamager() instanceof Player && evt.getEntity() instanceof Player){
             Player damger = (Player) evt.getDamager();
-            specialE.getLogger().info(damger.getDisplayName());
         }
                 
     }
