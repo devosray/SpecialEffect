@@ -1,9 +1,19 @@
 #Default Config file
 
-#############
-# LifeSteal #
-#############
+          #############
+          # LifeSteal #
+          #############
   
-  #Percentage chance of losing an extra heart once hit
-  Lifesteal_probability: 50 
+  #Percentage chance of getting damage
+  #done to opponent back as health
+  Lifesteal_probability: 25
+  
+  #Percentage of damage done that should
+  #Increase your health with. ex, 50% means
+  #if you do 2 hearts damage, you get 1 heart health
+  Lifesteal_health_prob: 50
+  
+  #Enable the Mob-spawner fire effect
+  #When this happens
+  Lifesteal_fire: true
   
